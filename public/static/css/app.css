@@ -1,0 +1,100 @@
+.listado-productos {
+  background-color: #f3f3f3;
+}
+.contenedor {
+  max-width: 1200px;
+  width: 95%;
+  padding: 5rem 0;
+  margin: 0 auto;
+}
+.bg-white {
+  background-color: #fff;
+}
+.boton {
+  height: 3rem;
+  width: 3rem;
+  display: block;
+  background-size: 4rem;
+  background-image: url("/static/img/buscar.png");
+  background-repeat: no-repeat;
+  right: 1rem;
+  top: 1px;
+  background-color: white;
+  border: none;
+  position: relative;
+  right: 1rem;
+  top: 1px;
+  text-indent: -9999px;
+ 
+  /* &:hover {
+        cursor: pointer;
+    }; */
+}
+
+.inputi{
+  border: 1px solid var(--gris3);
+  padding: 1rem;
+  min-width: 300px;
+}
+ .formi{
+   position: relative;
+ }
+
+.imagen{
+  width: 200px;
+}
+
+.textoerror{
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.tentocentro{
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.textoform{
+  margin:2rem 0;
+}
+.pa{
+  text-align:center;
+}
+.separacion{
+  margin-top: 5rem;
+}
+.negrita{
+  border: 1px solid #e1e1e1;
+  padding: 2rem;
+}
+.negra{
+  font-weight:bold;
+}
+.nombrep{
+  padding: .5rem 2rem;
+  background-color: #DA552F;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+.head{
+  border-bottom: 2px solid var(--gris3);
+  padding: 1rem 0;
+}
+.adentro{
+  display:flex;
+  align-items: center;
+}
+.pa{
+  margin-right: 2rem;
+}
+.contenedorH{
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+  @media (min-width:768px) {
+      display: flex;
+      justify-content: space-between;
+}
